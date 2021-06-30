@@ -21,12 +21,16 @@
 //     console.log("Buzz");
 // } else{console.log(i);}}
 
-function convertToFahrenheit(celsius){
-    return  (celsius * 9/5 + 32)
-}
-console.log(convertToFahrenheit(-30))
-console.log(convertToFahrenheit(-10))
+// function convertToFahrenheit(celsius){
+//     return  (celsius * 9/5 + 32)
+// }
+// console.log(convertToFahrenheit(-30))
+// console.log(convertToFahrenheit(-10))
 
 
 // convertToF(-30) // -> -22
 // convertToF(-10) // -> 14
+
+var charlie = require("./apps")
+
+console.log(charlie)
